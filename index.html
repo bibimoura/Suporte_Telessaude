@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Suporte Telessaúde</title>
-    <link rel="stylesheet" href="suporte.css" />
+    <link rel="stylesheet" href="assets/css/suporte.css" />
   </head>
 
   <body>
@@ -14,7 +14,7 @@
         <!-- Logo -->
         <section class="log_header">
           <a href="index.html">
-            <img src="images/Logo_uft.png" alt="Logotipo do imagem" />
+            <img src="assets/images/Logo_uft.png" alt="Logotipo do imagem" />
           </a>
         </section>
 
@@ -41,7 +41,12 @@
       <section class="suporte">
         <!--Imagem do Suporte-->
         <div class="suporte-img">
-          <img src="images/suporte-logo.jpg" alt="Imagem de suporte técnico" />
+          <a href="#">
+            <img
+              src="assets/images/suporte-logo.jpg"
+              alt="Imagem do suporte técnico"
+            />
+          </a>
         </div>
 
         <div class="suporte-texto">
@@ -53,11 +58,10 @@
           </p>
 
           <p>
-            Clique na imagem ou no botão para acessar o nosso
-            suporte online.
+            Clique na imagem ou no botão para acessar o nosso suporte online.
           </p>
 
-          <a href="contato.html" class="botao">Acesse aqui</a>
+          <a href="contatos.html" class="botao">Acesse aqui</a>
 
           <p>Caso queira atendimento pessoalmente com os nossos técnicos.</p>
           <p>
@@ -71,10 +75,7 @@
     <footer>
       <div class="footer-container">
         <div class="footer-logo">
-          <img
-            src="images/suporte-header.jpg"
-            alt="Imagem de suporte técnico"
-          />
+          <img src="assets/images/suporte-footer.jpg" alt="Imagem do Rodapé" />
         </div>
 
         <div class="footer-info">
@@ -85,19 +86,11 @@
             Diretor Norte, Palmas - TO, 77001-090 <br />
             Palmas - Tocantins
           </p>
-          <p>Telefone - E-mail:</p>
+          <p>E-mail:</p>
         </div>
       </div>
     </footer>
 
-    <script>
-      const toggle = document.getElementById("menu-toggle");
-      const menu = document.getElementById("menu");
-
-      toggle.addEventListener("click", () => {
-        toggle.classList.toggle("active");
-        menu.classList.toggle("active");
-      });
-    </script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>

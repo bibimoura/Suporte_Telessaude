@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quem Somos - Suporte Telessaúde</title>
-    <link rel="stylesheet" href="suporte.css" />
+    <link rel="stylesheet" href="assets/css/suporte.css" />
   </head>
 
   <body>
@@ -14,7 +14,7 @@
         <!-- Logo -->
         <section class="log_header">
           <a href="index.html">
-            <img src="images/Logo_uft.png" alt="Logotipo do site" />
+            <img src="assets/images/Logo_uft.png" alt="Logotipo do site" />
           </a>
         </section>
 
@@ -27,7 +27,7 @@
         <!-- Menu -->
         <nav class="menu_desktop" id="menu">
           <ul>
-            <li><a  href="index.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a style="color: #70b2bc" href="info.html">QUEM SOMOS</a></li>
             <li><a href="manuais.html">MANUAIS</a></li>
             <li><a href="contatos.html">CONTATOS</a></li>
@@ -35,14 +35,15 @@
         </nav>
       </div>
     </header>
-
+    
+    <!-- Seção Principal -->
     <main>
       <section class="info-texto">
         <h1>Quem Somos</h1>
         <p>
           O Telessaúde Tocantins é uma iniciativa voltada para o fortalecimento
-          da Atenção Primária em Saúde, oferecendo apoio técnico e tecnológico
-          a profissionais de saúde em todo o estado.
+          da Atenção Primária em Saúde, oferecendo apoio técnico e tecnológico a
+          profissionais de saúde em todo o estado.
         </p>
 
         <h2 class="titulo-info">O que pretendemos entregar</h2>
@@ -52,12 +53,13 @@
           qualidade no atendimento à população.
         </p>
 
-        <p>
-          Para acessar o suporte online, clique no <u>botão abaixo</u>.
-        </p>
+        <p>Para acessar o suporte online, clique no <u>botão abaixo</u>.</p>
         <a href="contatos.html" class="botao-info">Acesse aqui</a>
 
-        <p>Prefere atendimento presencial? <a href="contatos.html"><u>Clique aqui.</u></a></p>
+        <p>
+          Prefere atendimento presencial?
+          <a href="contatos.html"><u>Clique aqui.</u></a>
+        </p>
       </section>
     </main>
 
@@ -65,29 +67,22 @@
     <footer>
       <div class="footer-container">
         <div class="footer-logo">
-          <img src="images/suporte-header.jpg" alt="Imagem de suporte técnico" />
+          <img src="assets/images/suporte-footer.jpg" alt="Imagem do rodapé" />
         </div>
 
         <div class="footer-info">
           <h2>Suporte de Telessaúde - Tocantins - UFT</h2>
           <hr />
           <p>
-            Avenida NS-15, Quadra 109 - Alcno 14, Norte, s/n - bloco D - Plano Diretor Norte, Palmas - TO, 77001-090 <br />
+            Avenida NS-15, Quadra 109 - Alcno 14, Norte, s/n - bloco D - Plano
+            Diretor Norte, Palmas - TO, 77001-090 <br />
             Palmas - Tocantins
           </p>
-          <p>Telefone - E-mail:</p>
+          <p>E-mail:</p>
         </div>
       </div>
     </footer>
 
-    <script>
-      const toggle = document.getElementById("menu-toggle");
-      const menu = document.getElementById("menu");
-
-      toggle.addEventListener("click", () => {
-        toggle.classList.toggle("active");
-        menu.classList.toggle("active");
-      });
-    </script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>

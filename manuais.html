@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manuais - Suporte Telessaúde</title>
-    <link rel="stylesheet" href="suporte.css" />
+    <link rel="stylesheet" href="assets/css/suporte.css" />
   </head>
 
   <body>
@@ -14,7 +14,7 @@
         <!-- Logo -->
         <section class="log_header">
           <a href="index.html">
-            <img src="images/Logo_uft.png" alt="Logotipo do site" />
+            <img src="assets/images/Logo_uft.png" alt="Logotipo do site" />
           </a>
         </section>
 
@@ -29,17 +29,19 @@
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="info.html">QUEM SOMOS</a></li>
-            <li><a style="color:#70b2bc" href="manuais.html">MANUAIS</a></li>
+            <li><a style="color: #70b2bc" href="manuais.html">MANUAIS</a></li>
             <li><a href="contatos.html">CONTATOS</a></li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <!-- Seção Principal -->
     <main>
       <section class="manuais">
         <div class="titulo-manuais">
           <h1>Manuais Telessaúde</h1>
-          <img src="images/suporte-book.jpg" alt="Ícone de manual" />
+          <img src="assets/images/suporte-book.jpg" alt="Ícone de manual" />
         </div>
 
         <div class="manual-section">
@@ -141,10 +143,7 @@
     <footer>
       <div class="footer-container">
         <div class="footer-logo">
-          <img
-            src="images/suporte-header.jpg"
-            alt="Imagem de suporte técnico"
-          />
+          <img src="assets/images/suporte-footer.jpg" alt="Imagem do rodapé" />
         </div>
 
         <div class="footer-info">
@@ -155,19 +154,11 @@
             Diretor Norte, Palmas - TO, 77001-090 <br />
             Palmas - Tocantins
           </p>
-          <p>Telefone - E-mail:</p>
+          <p>E-mail:</p>
         </div>
       </div>
     </footer>
 
-    <script>
-      const toggle = document.getElementById("menu-toggle");
-      const menu = document.getElementById("menu");
-
-      toggle.addEventListener("click", () => {
-        toggle.classList.toggle("active");
-        menu.classList.toggle("active");
-      });
-    </script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
